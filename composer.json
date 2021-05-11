@@ -1,0 +1,22 @@
+{
+    "name": "genaker/module-dborderfix",
+    "description": "fix",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Yehor",
+            "email": "egorshitikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Genaker\\DbOrderFix\\": ""
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Framework\Data\Collection\AbstractDb">
+		<plugin name="Genaker_DbOrderFix_Plugin_Magento_Framework_Data_Collection" type="Genaker\DbOrderFix\Plugin\Magento\Framework\Data\Collection\AbstractDb" sortOrder="10" disabled="false"/>
+	</type>
+</config>
