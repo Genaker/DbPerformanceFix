@@ -3,4 +3,6 @@
 	<type name="Magento\Framework\Data\Collection\AbstractDb">
 		<plugin name="Genaker_DbOrderFix_Plugin_Magento_Framework_Data_Collection" type="Genaker\DbOrderFix\Plugin\Magento\Framework\Data\Collection\AbstractDb" sortOrder="10" disabled="false"/>
 	</type>
+	<preference for="Magento\Sales\Model\ResourceModel\Provider\UpdatedIdListProvider" type="Genaker\DbOrderFix\Rewrite\UpdatedIdListProvider"/>
+	<preference for="Magento\Sales\Model\ResourceModel\Provider\UpdatedAtListProvider" type="Genaker\DbOrderFix\Rewrite\UpdatedAtListProvider"/>
 </config>
