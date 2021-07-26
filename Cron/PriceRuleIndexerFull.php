@@ -9,7 +9,7 @@ namespace Genaker\DbOrderFix\Cron;
 
 use Magento\CatalogRule\Model\Indexer\Rule\UpdatedAtListProvider;
 use Magento\CatalogRule\Model\Indexer\Product\ProductRuleIndexer;
-use Magento\Catalog\Model\Indexer\Product\Price
+use Magento\Catalog\Model\Indexer\Product\Price;
 
 
 class PriceRuleIndexerFull
