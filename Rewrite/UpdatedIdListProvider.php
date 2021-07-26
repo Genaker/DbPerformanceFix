@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Genaker\Rewrite;
+namespace Genaker\DbOrderFix\Rewrite;
 
 use Magento\Framework\App\ResourceConnection;
 use Magento\Framework\DB\Adapter\AdapterInterface;
